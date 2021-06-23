@@ -18,7 +18,7 @@ use pocketmine\item\ItemFactory;
 use Wertzui123\Netherite\item\tool\Shovel;
 use pocketmine\plugin\PluginBase;
 use Wertzui123\Netherite\item\tool\Pickaxe;
-use Wertzui123\Netherite\item\tool\Sword;
+use Wertzui123\Netherite\item\tool\NetheriteSword;
 use Wertzui123\Netherite\item\tool\TieredTool;
 
 class Main extends PluginBase
@@ -38,7 +38,7 @@ class Main extends PluginBase
         BlockFactory::registerBlock(new Dirt(), true);
         ItemFactory::registerItem(new Item(self::ITEM_NETHERITE_INGOT, 0, "Netherite Ingot"), true);
         ItemFactory::registerItem(new Item(self::ITEM_NETHERITE_SCRAP, 0, "Netherite Scrap"), true);
-        ItemFactory::registerItem(new Sword(self::ITEM_NETHERITE_SWORD, 0, "Netherite Sword", TieredTool::TIER_NETHERITE), true);
+        ItemFactory::registerItem(new Sword(self::NETHERITE_SWORD, 0, "Netherite Sword", TieredTool::TIER_NETHERITE), true);
         ItemFactory::registerItem(new Shovel(self::ITEM_NETHERITE_SHOVEL, 0, "Netherite Shovel", TieredTool::TIER_NETHERITE), true);
         ItemFactory::registerItem(new Pickaxe(self::ITEM_NETHERITE_PICKAXE, 0, "Netherite Pickaxe", TieredTool::TIER_NETHERITE), true);
         ItemFactory::registerItem(new Axe(self::ITEM_NETHERITE_AXE, 0, "Netherite Axe", TieredTool::TIER_NETHERITE), true);
