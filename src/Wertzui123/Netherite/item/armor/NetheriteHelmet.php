@@ -4,6 +4,7 @@ namespace Wertzui123\Netherite\item\armor;
 
 
 use pocketmine\item\Armor;
+use pocketmine\item\DiamondHelmet
 
 class NetheriteHelmet extends Armor
 {
