@@ -22,7 +22,7 @@ class EventListener implements Listener
             $item = $event->getEntity();
             switch ($item->getItem()->getId()) {
                 case Main::ITEM_NETHERITE_INGOT:
-                case Main::ITEM_NETHERITE_SWORD:
+                case Main::NETHERITE_SWORD:
                 case Main::ITEM_NETHERITE_SHOVEL:
                 case Main::ITEM_NETHERITE_PICKAXE:
                 case Main::ITEM_NETHERITE_AXE:
