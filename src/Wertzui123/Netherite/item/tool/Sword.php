@@ -7,7 +7,7 @@ use pocketmine\block\BlockToolType;
 use pocketmine\entity\Entity;
 use pocketmine\item\Sword
 
-class NetheriteSword extends TieredTool
+class NetheriteSword extends Sword
 {
 
     public function getBlockToolType() : int{
