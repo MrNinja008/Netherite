@@ -5,8 +5,9 @@ namespace Wertzui123\Netherite\item\tool;
 use pocketmine\block\Block;
 use pocketmine\block\BlockToolType;
 use pocketmine\entity\Entity;
+use pocketmine\item\Sword
 
-class Sword extends TieredTool
+class NetheriteSword extends TieredTool
 {
 
     public function getBlockToolType() : int{
